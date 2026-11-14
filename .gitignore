@@ -1,0 +1,21 @@
+# Local LLM runtime & weights (if installed inside the repo)
+runtime/
+models/
+*.gguf
+*.zip
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Environment & backups
+.env
+.env.*
+!.env.example
+*.bak-*
+
+# Agent / tool workspaces
+.worktrees/
+.kopipasta/
